@@ -1,0 +1,16 @@
+F:\Proyectos\PatronMVVM\PatronMVVM\bin\Debug\netstandard2.0\PatronMVVM.deps.json
+F:\Proyectos\PatronMVVM\PatronMVVM\bin\Debug\netstandard2.0\PatronMVVM.dll
+F:\Proyectos\PatronMVVM\PatronMVVM\bin\Debug\netstandard2.0\PatronMVVM.pdb
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\PatronMVVM.csproj.AssemblyReference.cache
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\PatronMVVM.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\PatronMVVM.AssemblyInfoInputs.cache
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\PatronMVVM.AssemblyInfo.cs
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\PatronMVVM.csproj.CoreCompileInputs.cache
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\PatronMVVM.dll
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\refint\PatronMVVM.dll
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\PatronMVVM.pdb
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\ref\PatronMVVM.dll
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+F:\Proyectos\PatronMVVM\PatronMVVM\obj\Debug\netstandard2.0\Views\Page2.xaml.g.cs

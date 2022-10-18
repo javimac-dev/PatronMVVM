@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PatronMVVM.Views.Page1"
+             NavigationPage.HasNavigationBar="False">
+    <Grid BackgroundColor="Blue">
+        <StackLayout VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Label VerticalOptions="Center"
+                       Text="Número 1:"
+                       TextColor="White"
+                       FontAttributes="Bold">
+                </Label>
+                <Entry Text="{Binding txtNumero1}"
+                       TextColor="White"
+                       Placeholder="Ingrese número"
+                       PlaceholderColor="WhiteSmoke"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       >
+                </Entry>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Label Text="Número 2:"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center">
+                </Label>
+                <Entry Text="{Binding txtNumero2}"
+                       TextColor="White"
+                       Placeholder="Ingrese número"
+                       PlaceholderColor="WhiteSmoke"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center">
+                </Entry>
+            </StackLayout>
+            <Button Text="sumar"
+                    TextTransform="None"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Command="{Binding btnSumar}"> 
+            </Button>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Label Text="Respuesta:"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding lblRespuesta}"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+            </StackLayout>
+            <Button Text="Page2"
+                    TextTransform="None"
+                    HorizontalOptions="End"
+                    Command="{Binding btnPagina2}">
+            </Button>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Label Text="Picker:"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       VerticalOptions="CenterAndExpand">
+                </Label>
+                <Picker Title="Seleccione opción"
+                        TitleColor="WhiteSmoke"
+                        TextColor="white"
+                        HorizontalOptions="Fill"
+                        SelectedItem="{Binding cboxPicker}">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Dato1</x:String>
+                            <x:String>Dato2</x:String> 
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>
