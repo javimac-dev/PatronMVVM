@@ -80,7 +80,7 @@
             </StackLayout>
             <StackLayout HorizontalOptions="Center">
                 <DatePicker TextColor="White"
-                            Date="{Binding dtePicker}">
+                            Date="{Binding dtePicker,Mode=TwoWay}">
                     <DatePicker.Format>
                         dd/MM/yyyy
                     </DatePicker.Format>
@@ -88,7 +88,6 @@
                 <Label Text="{Binding lblResultadoFecha}"
                        TextColor="White"
                        >
-                        
                 </Label>
             </StackLayout>
         </StackLayout>
