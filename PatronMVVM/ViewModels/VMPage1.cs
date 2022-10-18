@@ -18,12 +18,15 @@ namespace PatronMVVM.ViewModels
         string _numero2;
         string _respuesta;
         string _datopicker;
+        DateTime _fecha;
+        string _resultadoFecha;
         #endregion
 
-        #region CONSTRUCTOR /*no se toca*/
+        #region CONSTRUCTOR
         public VMPage1(INavigation navigation)
         {
             Navigation = navigation;/*se comporta como una página en navegación*/
+            dtePicker=DateTime.Now;
         }
         #endregion 
 
@@ -61,8 +64,21 @@ namespace PatronMVVM.ViewModels
             }
         }
 
+        public DateTime dtePicker
+        {
+            get { return _fecha; } //retorna información de tipo datetime
+            set 
+            {
+                SetValue(ref _fecha, value);
+                lblResultadoFecha=_fecha.ToString("dd/MM/yyyy");
+            }
+        }
 
-
+        public string lblResultadoFecha
+        {
+            get { return _resultadoFecha; } //retorna información de tipo string
+            set { SetValue(ref _resultadoFecha, value); }//recibe información de tipo string
+        }
 
         #endregion
 

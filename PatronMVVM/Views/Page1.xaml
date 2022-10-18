@@ -78,6 +78,19 @@
                     </Picker.ItemsSource>
                 </Picker>
             </StackLayout>
+            <StackLayout HorizontalOptions="Center">
+                <DatePicker TextColor="White"
+                            Date="{Binding dtePicker}">
+                    <DatePicker.Format>
+                        dd/MM/yyyy
+                    </DatePicker.Format>
+                </DatePicker>
+                <Label Text="{Binding lblResultadoFecha}"
+                       TextColor="White"
+                       >
+                        
+                </Label>
+            </StackLayout>
         </StackLayout>
     </Grid>
 </ContentPage>
