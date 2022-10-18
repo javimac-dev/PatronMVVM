@@ -1,5 +1,4 @@
 ﻿using PatronMVVM.Views;
-
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +12,7 @@ namespace PatronMVVM.ViewModels
     public class VMPage1: BaseViewModel
     {
         #region VARIABLES
-        string _mensaje;
+        /*string _mensaje;*/
         string _numero1;
         string _numero2;
         string _respuesta;

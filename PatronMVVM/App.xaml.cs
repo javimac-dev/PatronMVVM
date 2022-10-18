@@ -12,6 +12,7 @@ namespace PatronMVVM
             InitializeComponent();
 
             MainPage =  new NavigationPage(new Page1());
+            //MainPage = new NavigationPage(new Page3());
         }
 
         protected override void OnStart()

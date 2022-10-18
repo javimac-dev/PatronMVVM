@@ -632,3 +632,6 @@ F:\Proyectos\PatronMVVM\PatronMVVM.Android\obj\Debug\120\stamp\_GenerateJavaStub
 F:\Proyectos\PatronMVVM\PatronMVVM.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 F:\Proyectos\PatronMVVM\PatronMVVM.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
 F:\Proyectos\PatronMVVM\PatronMVVM.Android\obj\Debug\120\res\drawable\flechaatras.png
+F:\Proyectos\PatronMVVM\PatronMVVM.Android\obj\Debug\120\res\drawable\frank.png
+F:\Proyectos\PatronMVVM\PatronMVVM.Android\obj\Debug\120\res\drawable\juan.png
+F:\Proyectos\PatronMVVM\PatronMVVM.Android\obj\Debug\120\res\drawable\javimac.png

@@ -4,7 +4,9 @@ using System.Text;
 
 namespace PatronMVVM.Models
 {
-    internal class MUsuarios
+    public class MUsuarios
     {
+        public string Nombre { get; set; }
+        public string Imagen { get; set; }
     }
 }
