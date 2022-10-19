@@ -21,7 +21,7 @@ namespace PatronMVVM.ViewModels
         }
         #endregion
 
-        #region OBJETOS
+        #region CONTROLES
         public string Texto
         {
             get { return _Texto; } //retorna información de tipo string

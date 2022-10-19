@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PatronMVVM.ViewModels;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,7 @@ namespace PatronMVVM.Views
         public Page2()
         {
             InitializeComponent();
+            BindingContext = new VMPage2();
         }
     }
 }

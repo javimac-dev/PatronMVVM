@@ -2,7 +2,45 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PatronMVVM.Views.Page2">
-    <Grid BackgroundColor="Black">
+    <CollectionView 
+        ItemsSource="{Binding Products}"
+        Margin="25">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame Padding="5"
+                       CornerRadius="5"
+                       IsClippedToBounds="False">
+                    <Grid HeightRequest="100">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width=".3*" />
+                            <ColumnDefinition Width=".7*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height=".5*" />
+                            <RowDefinition Height=".5*" />                            
+                        </Grid.RowDefinitions>
+                        <Image Grid.RowSpan="2"
+                               Source="{Binding Image}">
+                            
+                        </Image>
+                        <Label Grid.Column="1"
+                               FontAttributes="Bold"
+                               FontSize="Large"
+                               VerticalOptions="Center"
+                               Text="{Binding Name}">
+                        </Label>
+                        <Label Grid.Row="1"
+                               Grid.Column="1"
+                               FontSize="Medium"
+                               Text="{Binding Price,StringFormat='{0:C}'}">
+                        </Label>
+                    </Grid>
+                </Frame>
 
-    </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+        
+    </CollectionView>
+    
+    
 </ContentPage>
